@@ -13,7 +13,7 @@ export default function LogoTicker() {
         maskImage:
           "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)",
       }}
-      className="py-8 my-16"
+      className="my-16 py-8"
     >
       <Ticker
         duration={15}

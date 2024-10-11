@@ -25,7 +25,7 @@ const ProjectCard = ({
   images,
 }: ProjectCardProps) => (
   <div className="flex flex-col">
-    <div className="md:sticky md:top-0 md:w-1/2 py-8">
+    <div className="py-8 md:sticky md:top-0 md:w-1/2">
       <div className="flex flex-col space-y-4 md:pr-8">
         <Badge className="w-fit" variant="secondary">
           {year}
@@ -63,7 +63,7 @@ const ProjectCard = ({
         </div>
       </div>
     </div>
-    <div className="flex flex-col gap-4 md:w-1/2 ml-auto h-fit justify-start md:mt-[-470px]">
+    <div className="ml-auto flex h-fit flex-col justify-start gap-4 md:mt-[-470px] md:w-1/2">
       {images.map((img, index) => (
         <div key={index}>
           <Image

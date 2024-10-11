@@ -16,9 +16,9 @@ import {
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-between items-center py-8">
-      <div className="text-xl font-bold w-[175px]">LOGO</div>
-      <ul className="hidden lg:flex justify-between items-center gap-4">
+    <nav className="flex items-center justify-between py-8">
+      <div className="w-[175px] text-xl font-bold">LOGO</div>
+      <ul className="hidden items-center justify-between gap-4 lg:flex">
         <li>
           <Button variant="ghost">
             <Link href="/">Work</Link>
@@ -35,7 +35,7 @@ export default function NavBar() {
           </Button>
         </li>
       </ul>
-      <ul className="hidden lg:flex justify-between items-center gap-4">
+      <ul className="hidden items-center justify-between gap-4 lg:flex">
         <ModeToggle />
         <Button>
           <CalendarPlus className="mr-2 h-4 w-4" />
@@ -43,7 +43,7 @@ export default function NavBar() {
         </Button>
       </ul>
       <Sheet>
-        <div className="lg:hidden flex justify-between items-center gap-4">
+        <div className="flex items-center justify-between gap-4 lg:hidden">
           <ModeToggle />
           <SheetTrigger className="lg:hidden">
             <Button asChild variant="outline" size="icon">
