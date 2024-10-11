@@ -9,10 +9,7 @@ const Hero = () => {
     <div className="flex flex-col space-y-8 py-16">
       <div className="flex items-center space-x-4">
         <Avatar>
-          <AvatarImage
-            src="https://framerusercontent.com/images/pXbDq6Cwv7PKjBoQ3Dk46QUkC5Q.png"
-            alt="Matt Biehl"
-          />
+          <AvatarImage src="/prof.png" alt="Matt Biehl" />
         </Avatar>
         <div className="flex flex-col gap-1">
           <h3 className="font-bold ">Matt Biehl</h3>
@@ -24,12 +21,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-3xl md:text-5xl lg:text-6xl md:leading-tight lg:leading-tight">
+      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         Elevate your online presence with our customizable portfolio template
         tailored for freelancers.
       </h1>
       <div className="flex flex-col space-y-8 max-w-xl">
-        <p className="text-lg text-slate-400 leading-relaxed">
+        <p className="text-lg text-muted-foreground leading-relaxed">
           Present your skills, experience, and projects in a visually compelling
           way to captivate potential clients and stand out in your field.
         </p>
